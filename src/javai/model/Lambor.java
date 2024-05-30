@@ -1,6 +1,6 @@
-package javai;
+package javai.model;
 
-public class Genesis implements Car {
+public class Lambor implements Car {
 	private int speed;
 
 	public int getSpeed() {
@@ -12,7 +12,7 @@ public class Genesis implements Car {
 	}
 
 	public int speedUp(int km) {
-		this.speed = this.speed + km;
+		this.speed += km;
 		return this.speed;
 	}
 

@@ -1,9 +1,9 @@
-package javai;
+package javai.model;
 
-public class Porche implements Car {
+public class Genesis implements Car {
 	
 	private int speed;
-	
+
 	public int getSpeed() {
 		return speed;
 	}
@@ -14,7 +14,8 @@ public class Porche implements Car {
 
 	@Override
 	public int speedUp(int km) {
-		this.speed = this.speed + km;
+		// TODO Auto-generated method stub
+		this.speed += km;
 		return this.speed;
 	}
 
